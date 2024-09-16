@@ -1,0 +1,37 @@
+{
+    "name": "aridez/simple-mail-builder",
+    "version": "1.0.0",
+    "description": "A tool to easily create emails in Laravel using a fluent interface",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aridez\\MailBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aridez\\MailBuilder\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aridez\\MailBuilder\\Providers\\MailBuilderServiceProvider"
+            ],
+            "aliases": {
+                "MailMessageBuilder": "Aridez\\MailBuilder\\Facades\\MailBuilder"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Mourin",
+            "email": "ericmourinmarin@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.4",
+        "phpunit/phpunit": "^11.3"
+    }
+}
