@@ -14,6 +14,7 @@ A tool to easily create emails in Laravel using a fluent interface.
     - [Creating a new theme](#creating-a-new-theme)
     - [Passing additional data](#passing-additional-data)
   - [Contributing](#contributing)
+  - [Other](#other)
 
 ## Installation
 
@@ -60,7 +61,7 @@ class WelcomeMessage extends Notification
 
 This code will create an email that looks like this:
 
-![preview](https://github.com/aridez/simple-mail-builder/raw/master/preview.jpg)
+![preview](https://raw.githubusercontent.com/Aridez/simple-mail-builder/main/preview.jpg)
 
 ### Quick reference
 
@@ -194,3 +195,7 @@ Then you can require the package normally:
 ```bash
 composer require aridez/simple-mail-builder
 ```
+
+## Other
+
+- Responsive email templates by [ckissi](https://github.com/ckissi/responsive-html-email-templates)
